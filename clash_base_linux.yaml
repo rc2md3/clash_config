@@ -8,7 +8,7 @@ dns:
   enable: true
   ipv6: false
   listen: "0.0.0.0:53"
-  enhanced-mode: "fake-ip"
+  enhanced-mode: "redir-host"
   nameserver:
   - "tcp://114.115.240.175:9090"
   - "tcp://47.101.136.37:9090"

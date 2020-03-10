@@ -8,7 +8,8 @@ dns:
   enable: true
   ipv6: false
   listen: "0.0.0.0:53"
-  enhanced-mode: "redir-host"
+  enhanced-mode: "fake-ip"
+  fake-ip-range: 198.18.0.1/16
   nameserver:
   - "tcp://114.115.240.175:9090"
   - "tcp://47.101.136.37:9090"
@@ -21,6 +22,8 @@ dns:
   - "223.5.5.5"
 tun:
   enable: true
+  device-url: dev://clash0
+  dns-listen: 0.0.0.0:53
 Proxy: ~
 Proxy Group: ~
 Rule: ~

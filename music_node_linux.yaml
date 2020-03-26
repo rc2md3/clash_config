@@ -19,12 +19,10 @@ dns:
    - 223.5.5.5
 
 Proxy:
-- name: "中国"
-  type: ss
-  server: music.desperadoj.com
-  port: 30003
-  cipher: aes-128-gcm
-  password: desperadoj.com
+- name: "中国" 
+  type: http 
+  server: "music.desperadoj.com" 
+  port: 30000
 
 Proxy Group:
 - name: "🎵 Netease Music"

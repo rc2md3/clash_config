@@ -4,6 +4,7 @@ allow-lan: true
 mode: "Rule"
 log-level: "debug"
 external-controller: "0.0.0.0:9090"
+external-ui: ./dashboard
 dns:
   enable: true
   ipv6: false
